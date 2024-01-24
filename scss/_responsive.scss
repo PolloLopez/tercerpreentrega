@@ -1,0 +1,51 @@
+/*Medias Queries */
+
+@media (max-width: 767px) {
+    .encabezado {
+        margin-top: 1rem;
+    }
+
+    .tituloPrincipal h1 {
+        display: none;
+    }
+
+    .imagenMuestra {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 406px) {
+    .hero {
+        height: calc(100vh - 10rem);
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero {
+        margin-top: auto;
+        height: calc(100vh - 0.5rem);
+        position: relative;
+    }
+}
+
+@media (max-width: 406px) {
+    .footer {
+        align-items: center;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    .contenedorTienda {
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .contenedorTienda {
+        grid-template-columns: 2fr;
+    }
+}

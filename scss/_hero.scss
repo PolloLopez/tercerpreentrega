@@ -1,0 +1,36 @@
+/*HERO*/
+
+.hero {
+    display: inline-block;
+    color: #8fb7ec;
+  
+    /*$color-fuentes-tirulos-botones*/
+    position: relative;
+    width: 100%;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 400;
+    color: $color-fuentes;  
+  }
+  
+  p {
+    color: $color-fuentes;
+    font-size: 2rem;
+    margin: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .hero h2 span {
+    font-weight: 800;
+    padding: 0.5px;
+    position: relative;
+  }
+  
+  .containerHero {
+    display: flex;
+    margin-top: 0;
+  }
+  
