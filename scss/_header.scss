@@ -4,28 +4,16 @@
     height: 8rem;
     padding: 1.0rem 0;
     justify-content: space-between;
-
-    /* distribuye y alinea */
     align-items: center;
-}
 
-.menuNav a {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    border: 1px solid #c1101a;
-    padding: 0;
+    .imgLogo {
+        @include rotateAnimation;
+    }
 }
 
 h1 {
     display: inline-block;
     font-size: 3.5rem;
     font-weight: 600;
-    color: #fafafa;
-
-    /*$color-fuentes*/
+    color: $color-fuentes;
 }
-
-.imgLogo {
-    height: 8rem;
-}
-

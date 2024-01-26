@@ -1,0 +1,9 @@
+@mixin rotateAnimation {
+    animation: rotateAnimation 2s;
+}
+
+@keyframes rotateAnimation {
+    to {
+        transform: rotate(360deg);
+    }
+}
