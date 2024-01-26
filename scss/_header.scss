@@ -7,7 +7,13 @@
     align-items: center;
 
     .imgLogo {
-        @include rotateAnimation;
+        width: 5rem;
+    }
+
+    &.prueba-rotacion {
+        .imgLogo {
+            @include rotateAnimation;
+        }
     }
 }
 
@@ -16,4 +22,4 @@ h1 {
     font-size: 3.5rem;
     font-weight: 600;
     color: $color-fuentes;
-} 
+}
