@@ -1,5 +1,7 @@
 @mixin rotateAnimation {
-    animation: rotateAnimation 2s;
+    .imgLogo {
+        animation: rotateAnimation 2s;
+    }
 }
 
 @keyframes rotateAnimation {
