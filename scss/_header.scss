@@ -5,21 +5,11 @@
     padding: 1.0rem 0;
     justify-content: space-between;
     align-items: center;
-
-    .imgLogo {
-        width: 5rem;
-    }
-
-    &.prueba-rotacion {
-        .imgLogo {
-            @include rotateAnimation;
-        }
-    }
-}
-
-h1 {
+  }
+  
+  h1 {
     display: inline-block;
     font-size: 3.5rem;
     font-weight: 600;
-    color: $color-fuentes;
-}
+    color: $color-fuentes; 
+  }

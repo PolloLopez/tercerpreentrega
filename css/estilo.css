@@ -111,8 +111,11 @@ h1 {
 }
 
 .imgLogo {
-  height: 8rem;
+  height: 7rem;
+  transition: all 1.8s;
+  transform: rotate(360deg)
 }
+ 
 
 /*HERO*/
 .hero {

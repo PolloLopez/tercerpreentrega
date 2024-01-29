@@ -1,11 +1,5 @@
-@mixin rotateAnimation {
-    .imgLogo {
-        animation: rotateAnimation 2s;
-    }
-}
-
-@keyframes rotateAnimation {
-    to {
-        transform: rotate(360deg);
-    }
+.imgLogo {
+  height: 7rem;
+  transition: 1.5s;
+  transform: rotate(360deg);
 }
